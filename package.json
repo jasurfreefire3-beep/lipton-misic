@@ -1,0 +1,25 @@
+{
+  "name": "discord-music-media-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that searches YouTube, downloads MP3s, and sends social media media links as files.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "youtube",
+    "media",
+    "social"
+  ],
+  "author": "Copilot",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "yt-search": "^2.12.1"
+  }
+}
